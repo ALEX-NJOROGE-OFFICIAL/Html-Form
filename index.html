@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating a Form</title>
+    <style>
+        body{
+            background-color: lightgray;
+        }
+        form{
+            border: 1px solid green;
+            margin: 7px;
+            padding: 7px;
+        }
+        #secondForm{
+            border: 2px dotted blue;
+        }
+    </style>
+</head>
+<body>
+  <form action="action_page.php">
+    <label for="fname">First Name</label><br>
+    <input type="fname" id="fname" value="Alex"><br>
+    <label for="mname">Middle Name</label><br>
+    <input type="mname" id="mname" value="Njoroge"><br>
+    <label for="lname">Last Name</label><br>
+    <input type="lname" id="lname" value="Mwangi"> <br> <br>
+    <input type="Submit" value="Submit">
+
+  </form>
+
+  <form action="action_page.php" id="secondForm">
+    <label for="fname">First Name</label><br>
+    <input type="fname" id="fname" value="Kush"><br>
+    <label for="mname">Middle Name</label><br>
+    <input type="mname" id="mname" value="Manwa"><br>
+    <label for="lname">Last Name</label><br>
+    <input type="lname" id="lname" value="Kagiri"> <br> <br>
+    <input type="Submit" value="Submit">
+
+  </form>
+
+</body>
+</html>
